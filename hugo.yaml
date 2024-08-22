@@ -1,0 +1,9 @@
+baseURL: 'https://blog.louishhy.com'
+languageCode: 'en-us'
+title: "Louis's blog"
+theme: 'hugo-theme-stack'
+# Fix the black background issue
+# See Github issue https://github.com/CaiJimmy/hugo-theme-stack/issues/695#issuecomment-1267181213
+markup:
+  highlight:
+   noClasses: false

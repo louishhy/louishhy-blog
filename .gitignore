@@ -1,0 +1,22 @@
+# Hugo build output directory (generated site)
+public/
+
+# Hugo resource caching directory
+resources/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules and other dependencies
+node_modules/
+npm-debug.log*
+
+# Backup files
+*~
+*.bak
+*.swp
