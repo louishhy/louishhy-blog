@@ -3,10 +3,10 @@ title: Leetcode LCR. 121 寻找目标值 – 二维数组
 description: ""
 date: 2024-08-23T07:03:40.454Z
 preview: ""
-draft: true
+draft: false
 tags: [leetcode]
 categories: [Algorithm]
-image: ""
+image: "terrain.png"
 slug: lcr121
 ---
 
