@@ -20,7 +20,7 @@ https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/description
 
 其次是关于这个博客的语言。我目前计划是用英文来进行书写，以适配最广大的受众。当然，你也会见到中文的post（比如说这篇）和日文的post。
 
-再说回LCR。LCR原本是剑指offer系列，但是似乎力扣不再与剑指offer合作，所以将剑指offer换成了LCR开头（https://leetcode.cn/circle/discuss/jnfP42/view/3WxWlc/）。
+再说回LCR。LCR原本是剑指offer系列，但是似乎力扣不再与剑指offer合作，所以将剑指offer换成了LCR开头，可以看这个[post](https://leetcode.cn/circle/discuss/jnfP42/view/3WxWlc/)。
 
 目前的小目标是把LCR过一遍，并把对我有一定思考量，日后可以参考的题目记录在这里。
 
@@ -65,7 +65,7 @@ https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/description
 ![地形示意](terrain.png)
 
 > **关于一点Geogebra** 
-> 限制定义域：`f(x,y)=0.2x+0.2y, (y >= 0)`，格式比较奇妙。
+> 限制定义域：`f(x,y) = 0.2x + 0.2y, (y >= 0)`，格式比较奇妙。
 
 那么我们会不由自主地想到从左下角到右下角的那个“山脊”。这个山脊具有非常特殊的属性。我们暂时把它上面的这些数称为`pivot`。
 
@@ -139,7 +139,7 @@ class Solution:
 
 官方题解提到了Python的二分库，所以复习一下。以下内容摘自Python官方文档。
 
-> bisect.bisect_left(a, x, lo=0, hi=len(a))
+> `bisect.bisect_left(a, x, lo=0, hi=len(a))`
 > 
 > 
 > 在 *a* 中找到 *x* 合适的插入点以维持有序。参数 *lo* 和 *hi* 可以被用于确定需要考虑的子集；默认情况下整个列表都会被使用。如果 *x* 已经在 *a* 里存在，那么插入点会在已存在元素之前（也就是左边）。如果 *a* 是列表（list）的话，返回值是可以被放在 `list.insert()` 的第一个参数的。
@@ -148,18 +148,20 @@ class Solution:
 > 
 > =====分割线=====
 > 
-> `bisect.bisect_right`(*a*, *x*, *lo=0*, *hi=len(a)*)
+> `bisect.bisect_right(a, x, lo=0, hi=len(a))`
 > 
 > 类似于 [`bisect_left()`](https://docs.python.org/zh-cn/3.6/library/bisect.html#bisect.bisect_left)，但是返回的插入点是 *a* 中已存在元素 *x* 的右侧。
 > 
 > 返回的插入点 *i* 可以将数组 *a* 分成两部分。左侧是 `all(val <= x for val in a[lo:i])`，右侧是 `all(val > x for val in a[i:hi])`。
 > 
 
-说的更清楚一点就是，`bisect`的算法采用了了Dijkstra推荐的左闭右开的原则（ https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD831.html ）。一个数组可以被分解为`<pivot`， `=pivot`，`>pivot`的部分（联想荷兰国旗问题）。
+说的更清楚一点就是，`bisect`的算法采用了了[Dijkstra推荐的左闭右开的原则](https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD831.html)。一个数组可以被分解为`< pivot`， `= pivot`，`> pivot`的部分（联想荷兰国旗问题）。
 
 - `bisect_left`返回了一个值`i`使得 [lo, i) 代表小于pivot的区间，而 [i, hi) 代表大于等于pivot的区间。
 - `bisect_right`返回了一个值`i`使得 [lo, i) 代表小于等于pivot的区间，而 [i, hi) 代表大于pivot的区间。
 
-所以事实上`bisect_left:bisect_right`返回的就是`=pivot`的区间，因为其满足其值`>=pivot`且其值`<=pivot`。
+所以事实上`[bisect_left:bisect_right]`返回的就是`=pivot`的区间，因为其满足其值`>= pivot`且其值`<= pivot`。
 
-当然，使用的时候记得考虑**越界**的问题，比如说：数组所有的数都大于/小于pivot的时候。
+> **Note**
+>
+> 当然，使用的时候记得考虑**越界**的问题，比如说：数组所有的数都大于/小于pivot的时候。

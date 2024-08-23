@@ -4,7 +4,7 @@ description: ""
 date: 2024-08-23T14:15:58.493Z
 preview: ""
 draft: false
-tags: []
+tags: [hugo, cloudflare, frontmatter]
 categories: [Web]
 image: "hugo-logo-wide.svg"
 slug: setting-up-hugo-static-blog-page

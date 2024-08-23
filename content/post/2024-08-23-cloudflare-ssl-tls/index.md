@@ -4,7 +4,7 @@ description: ""
 date: 2024-08-23T07:46:59.095Z
 preview: ""
 draft: false
-tags: [Cloudflare]
+tags: [cloudflare, ssl, tls]
 categories: [Web]
 image: ""
 slug: cloudflare-ssl-tls
