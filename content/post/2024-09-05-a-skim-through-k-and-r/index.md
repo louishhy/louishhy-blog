@@ -5,7 +5,7 @@ date: 2024-09-05T14:10:27.723Z
 preview: ""
 draft: false
 tags: [C]
-categories: [Programming languages]
+categories: [Programming language]
 image: "C_Programming_Language.svg"
 slug: a-skim-through-k-and-r
 ---
@@ -85,6 +85,17 @@ As an analogy I would say that other languages are like cloud services while C i
 - Functions are _pointers_ to the entry point.
 
 Pointers does give you headaches, but it really burns everything nearly down to its core - many things are essentially the same.
+
+### Extra: Complicated declarations
+Complicated declarations is a kind of nightmare in C that you compose function parentheses, pointers, and arrays together. As an example: 
+
+```
+void (*bsd_signal(int sig, void (*func)(int)))(int);
+```
+
+I really like [this article on geeksforgeeks](https://www.geeksforgeeks.org/complicated-declarations-in-c/) about how to read complicated declarations in C by using postfix notation.
+
+Simply put, you expand the innermost parentheses first, and then move outwards. At each level, you first look at the variable name, then look right, then look left. This is far too abstract so please check out the article! It is a lot of fun... I hope?
 
 ## 4. Importing?
 
