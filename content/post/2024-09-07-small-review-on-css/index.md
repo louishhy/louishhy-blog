@@ -12,7 +12,7 @@ slug: small-review-on-css
 Though I am not currently proficient in frontend, I do sometimes have to get in touch with HTML/CSS when setting up static pages. Here is some personal note on my recent refresh on CSS (last time I touched it is during my undergrad🫠).
 
 ## CSS box model
-Important concepts include `margin`, `border`, `padding`, and `content`.
+Important concepts include `margin`, `border`, `padding`, and `content`. Here is a nice illustration from Wikipedia:
 ![Box model definition from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)
 
 ## Float
