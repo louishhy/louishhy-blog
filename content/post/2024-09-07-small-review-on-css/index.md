@@ -13,6 +13,7 @@ Though I am not currently proficient in frontend, I do sometimes have to get in 
 
 ## CSS box model
 Important concepts include `margin`, `border`, `padding`, and `content`. Here is a nice illustration from Wikipedia:
+
 ![Box model definition from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)
 
 ## Float
