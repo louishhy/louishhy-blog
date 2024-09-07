@@ -4,7 +4,7 @@ description: ""
 date: 2024-09-07T02:07:34.014Z
 preview: ""
 draft: false
-tags: [css]
+tags: [css, frontend]
 categories: [Web]
 image: "https://images.unsplash.com/photo-1725610588150-c4cd8b88affd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 slug: small-review-on-css
