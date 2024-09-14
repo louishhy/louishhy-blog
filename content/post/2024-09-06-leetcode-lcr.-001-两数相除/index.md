@@ -5,7 +5,7 @@ date: 2024-09-06T02:34:34.101Z
 preview: ""
 draft: false
 tags: [leetcode]
-categories: [Algorithm, 中文post]
+categories: [algorithm, 中文post]
 image: "https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?q=80&w=2691&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 slug: leetcode-lcr.-001-两数相除
 ---

@@ -5,7 +5,7 @@ date: 2024-08-23T07:46:59.095Z
 preview: ""
 draft: false
 tags: [cloudflare, ssl, tls]
-categories: [Web]
+categories: [web]
 image: ""
 slug: cloudflare-ssl-tls
 ---
