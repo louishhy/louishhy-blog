@@ -5,7 +5,7 @@ date: 2024-09-05T14:10:27.723Z
 preview: ""
 draft: false
 tags: [C]
-categories: [Programming language]
+categories: [C/C++]
 image: "C_Programming_Language.svg"
 slug: a-skim-through-k-and-r
 ---
