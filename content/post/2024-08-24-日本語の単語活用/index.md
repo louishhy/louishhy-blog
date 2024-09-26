@@ -6,7 +6,7 @@ preview: ""
 draft: false
 tags: [japanese]
 categories:
-    - Language
+    - language
     - 日本語post
 image: ""
 slug: 日本語の単語活用

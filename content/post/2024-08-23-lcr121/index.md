@@ -5,7 +5,7 @@ date: 2024-08-23T07:03:40.454Z
 preview: ""
 draft: false
 tags: [leetcode]
-categories: [Algorithm, 中文post]
+categories: [algorithm, 中文post]
 image: "terrain.png"
 slug: lcr121
 ---
