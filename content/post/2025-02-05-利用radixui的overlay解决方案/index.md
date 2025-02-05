@@ -4,8 +4,8 @@ description: ""
 date: 2025-02-05T08:59:05.298Z
 preview: ""
 draft: false
-tags: []
-categories: []
+tags: [shadcn, radix, react]
+categories: [frontend]
 image: ""
 slug: use-radix-to-do-overlay
 ---
