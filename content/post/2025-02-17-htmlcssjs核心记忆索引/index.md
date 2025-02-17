@@ -130,6 +130,26 @@ CSS 利用`position`将元素移出默认布局流，并且用`inset`等来定�
 
 [布局流](https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/CSS_layout/Introduction)
 
+### 层叠层 (Cascading Layer)
+
+用层级来调整 css 的优先度，使得一系列样式可以被定义在同一个`@layer`中，并定义覆盖顺序。
+
+```css
+@layer theme，layout，utilities;
+
+@layer layout {
+  main {
+    display: grid;
+  }
+}
+```
+
+在 tailwind 中是核心概念。（base, component, utilities）
+
+**注意。未分层的层外样式优先权比任何层内样式都高。**
+
+[层叠层](https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Cascade_layers)
+
 ## Javascript
 
 此处不涉及 js 基本语法，异步编程 etc.，只涉及浏览器中重要的模式和知识。
