@@ -1,5 +1,5 @@
 ---
-title: mdn CSS 概要记录1 - 选择器和盒子模型
+title: mdn CSS 概要记录 - 选择器和盒子模型
 description: ""
 date: 2025-02-16T15:37:49.383Z
 preview: ""
