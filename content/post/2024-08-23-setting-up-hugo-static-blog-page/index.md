@@ -5,7 +5,7 @@ date: 2024-08-23T14:15:58.493Z
 preview: ""
 draft: false
 tags: [hugo, cloudflare, frontmatter, frontend]
-categories: [Web]
+categories: [web dev]
 image: "hugo-logo-wide.svg"
 slug: setting-up-hugo-static-blog-page
 ---

@@ -5,7 +5,7 @@ date: 2025-02-17T14:28:25.879Z
 preview: ""
 draft: false
 tags: [html, css, js]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: memo-index-for-html-css-js
 ---

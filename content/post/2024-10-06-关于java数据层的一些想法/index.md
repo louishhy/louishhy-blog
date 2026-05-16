@@ -5,7 +5,7 @@ date: 2024-10-06T10:05:57.355Z
 preview: ""
 draft: false
 tags: [java, database]
-categories: [java]
+categories: [web dev]
 image: ""
 slug: 关于java数据层的一些想法
 ---

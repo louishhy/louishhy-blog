@@ -5,7 +5,7 @@ date: 2025-02-05T08:59:05.298Z
 preview: ""
 draft: false
 tags: [shadcn, radix, react]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: use-radix-to-do-overlay
 ---

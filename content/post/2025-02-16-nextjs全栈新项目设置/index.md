@@ -5,7 +5,7 @@ date: 2025-02-16T11:03:44.042Z
 preview: ""
 draft: false
 tags: [nextjs, prettier, eslint]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: prettier-eslint-setup-for-nextjs
 ---

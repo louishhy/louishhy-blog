@@ -4,8 +4,8 @@ description: ""
 date: 2025-05-22T02:48:59.985Z
 preview: ""
 draft: false
-tags: []
-categories: []
+tags: [web api]
+categories: [web dev]
 image: ""
 slug: about-client-web-api
 ---

@@ -5,7 +5,7 @@ date: 2025-02-16T15:37:49.383Z
 preview: ""
 draft: false
 tags: [css]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: mdn-css-keypoints-selectors-and-box-model
 ---

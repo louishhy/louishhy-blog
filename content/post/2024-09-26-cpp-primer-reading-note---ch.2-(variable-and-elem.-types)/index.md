@@ -5,7 +5,7 @@ date: 2024-09-26T06:28:54.743Z
 preview: ""
 draft: false
 tags: [c++, c++ primer]
-categories: [c++]
+categories: [programming language]
 image: ""
 slug: cpp-primer-reading-note-ch2
 ---

@@ -5,7 +5,7 @@ date: 2025-02-01T07:30:04.697Z
 preview: ""
 draft: false
 tags: [react, tailwind, next, frontend]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: things-i-learnt-from-building-game-guild-pr-page
 ---

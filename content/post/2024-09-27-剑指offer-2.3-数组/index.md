@@ -5,7 +5,7 @@ date: 2024-09-27T05:39:34.844Z
 preview: ""
 draft: false
 tags: [algorithm]
-categories: [algorithm, 中文post]
+categories: [algorithm]
 image: ""
 slug: 剑指offer-2.3.1-to-2.3.2-数组-字符串
 ---

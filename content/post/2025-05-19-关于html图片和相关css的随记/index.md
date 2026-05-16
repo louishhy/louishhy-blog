@@ -5,7 +5,7 @@ date: 2025-05-19T09:49:36.724Z
 preview: ""
 draft: false
 tags: [css]
-categories: [frontend]
+categories: [web dev]
 image: ""
 slug: regarding-html-image-and-related-css
 ---

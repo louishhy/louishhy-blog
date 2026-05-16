@@ -5,7 +5,7 @@ date: 2025-02-10T03:36:36.163Z
 preview: ""
 draft: false
 tags: [kotlin]
-categories: [kotlin]
+categories: [programming language]
 image: ""
 slug: quick-skim-on-kotlin
 ---
